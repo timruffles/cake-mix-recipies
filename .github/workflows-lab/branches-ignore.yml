@@ -1,7 +1,8 @@
 on:
   push:
     branches-ignore:
-    - "releases/**-alpha"
+    - "!lab-**"
+    - "lab-releases/**-alpha"
 
 jobs:
   pushOnMasterLab:

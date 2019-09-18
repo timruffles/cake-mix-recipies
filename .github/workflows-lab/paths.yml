@@ -1,8 +1,12 @@
 on:
   push:
+    branches:
+    - "lab-**"
     paths:
     - "src/**"
   pull_request:
+    branches:
+    - "lab-**"
     paths:
     - "src/**"
 jobs:
