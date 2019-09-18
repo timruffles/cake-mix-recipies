@@ -1,12 +1,12 @@
 on:
   push:
     branches:
-    - "lab-**
+    - "lab-**"
     paths-ignore:
     - "docs/**"
   pull_request:
     branches:
-    - "lab-**
+    - "lab-**"
     paths-ignore:
     - "docs/**"
 jobs:
