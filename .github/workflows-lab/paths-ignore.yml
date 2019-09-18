@@ -6,7 +6,7 @@ on:
 jobs:
   pushOnMasterLab:
     runs-on: ubuntu-16.04
-    name: "lab paths ignore"
+    name: "lab paths-ignore"
     steps:
       - uses: actions/npm@master
         name: docker action
