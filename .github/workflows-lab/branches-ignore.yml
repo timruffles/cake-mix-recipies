@@ -1,0 +1,14 @@
+on:
+  push:
+    branches-ignore:
+    - "releases/**-alpha"
+
+jobs:
+  pushOnMasterLab:
+    runs-on: ubuntu-16.04
+    name: "lab branchees ignore **-alpha"
+    steps:
+      - uses: actions/npm@master
+        name: docker action
+        with:
+          args: --version
