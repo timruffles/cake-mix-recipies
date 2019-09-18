@@ -1,0 +1,16 @@
+on:
+  push:
+    paths:
+    - "src/**"
+  pull_request:
+    paths:
+    - "src/**"
+jobs:
+  pushOnMasterProd:
+    runs-on: ubuntu-16.04
+    name: "prod paths:"
+    steps:
+      - uses: actions/npm@master
+        name: docker action
+        with:
+          args: --version
