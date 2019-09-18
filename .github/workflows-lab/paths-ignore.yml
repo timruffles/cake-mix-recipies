@@ -2,7 +2,9 @@ on:
   push:
     paths-ignore:
     - "docs/**"
-
+  pull_request:
+    paths-ignore:
+    - "docs/**"
 jobs:
   pushOnMasterLab:
     runs-on: ubuntu-16.04
