@@ -1,7 +1,5 @@
 on:
   pull_request:
-    paths-ignore:
-    - "docs/**"
 
 name: "Run CI"
 
