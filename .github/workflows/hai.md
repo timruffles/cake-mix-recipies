@@ -1,0 +1,12 @@
+on:
+  push:
+  
+
+name: "Have a 🍪"
+
+jobs:
+  CI:
+    name: "cookie"
+    runs-on: ubuntu-16.04
+    steps:
+      - run: ":"
