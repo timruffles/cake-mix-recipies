@@ -6,10 +6,9 @@ on:
     paths:
     - "do[cs]s?/**"
     branches-ignore:
-    - "pancake-mix"
-    - "!pan**/thingx+"
-    - "pan[12a-z]+/thingx"
-  
+    - "ignored*"
+    - "!ignored-reincluded" 
+
 name: "Run CI LAB"
 
 jobs:
