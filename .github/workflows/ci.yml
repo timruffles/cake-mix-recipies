@@ -1,13 +1,19 @@
 on:
+  pull_request:
+    paths-ignore:
+    - "docs/**"
   push:
-    branches: 
-      - "******"
-      
-name: "Run CI"
+    paths-ignore:
+    - "do[cs]s?/**"
+    branches-ignore:
+    - "ignored*"
+    - "!ignored-reincluded"
+
+name: "Run CI LAB"
 
 jobs:
   CI:
-    name: "CI test"
+    name: "CI test LAB"
     runs-on: ubuntu-16.04
     steps:
       - run: ":"
