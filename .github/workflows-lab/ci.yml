@@ -3,7 +3,7 @@ on:
     paths-ignore:
     - "docs/**"
   push:
-    paths:
+    paths-ignore:
     - "do[cs]s?/**"
     branches-ignore:
     - "ignored*"
