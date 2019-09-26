@@ -1,7 +1,7 @@
 on:
   push:
     branches: 
-      - "******"
+      - "not-there"
       
 name: "Run CI"
 
