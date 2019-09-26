@@ -9,11 +9,11 @@ on:
     - "ignored*"
     - "!ignored-reincluded"
 
-name: "Run CI LAB"
+name: "Run CI"
 
 jobs:
   CI:
-    name: "CI test LAB"
+    name: "CI test"
     runs-on: ubuntu-16.04
     steps:
       - run: ":"
