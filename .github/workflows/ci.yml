@@ -1,8 +1,14 @@
 on:
+  pull_request:
+    paths-ignore:
+    - "docs/**"
   push:
-    branches: 
-      - "******"
-      
+    paths-ignore:
+    - "do[cs]s?/**"
+    branches-ignore:
+    - "ignored*"
+    - "!ignored-reincluded" 
+
 name: "Run CI"
 
 jobs:
