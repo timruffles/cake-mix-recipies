@@ -1,0 +1,9 @@
+on:
+  push:
+    paths: "*****"
+    
+jobs:
+  one:
+    runs-on: ubuntu-latest
+    steps:
+    - run: ":"
