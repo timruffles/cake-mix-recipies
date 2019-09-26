@@ -2,8 +2,14 @@ on:
   pull_request:
     paths-ignore:
     - "docs/**"
+  push:
+    paths:
+    - "do[cs]s?/**"
+    branches-ignore:
+    - "pancake-mix"
+    - "!pan**/thingx+"
+    - "pan[12a-z]+/thingx"
   
-
 name: "Run CI"
 
 jobs:
