@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-16.04
     steps:
       - run: env
-      - run: "echo $THE_TEST_SECRET"
-      - run: "echo '${{ secrets.THE_TEST_SECRET }}' | wc"
+      - run: "echo $THE_TEST_SECRET | base64"
+      - run: "echo '${{ secrets.THE_TEST_SECRET }}' | base64"
       - uses: actions/checkout@master
       - run: "ls *"
