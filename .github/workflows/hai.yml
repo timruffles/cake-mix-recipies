@@ -9,5 +9,5 @@ jobs:
     name: "cookie"
     runs-on: ubuntu-16.04
     steps:
-      - run: env
-      - run: "echo '${{ github }}'"
+      - uses: actions/checkout@master
+      - run: "ls *"
