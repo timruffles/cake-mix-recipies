@@ -16,5 +16,6 @@ jobs:
     name: "CI test"
     runs-on: ubuntu-16.04
     steps:
+      - run: echo "${{ github.secrets.THE_TEST_SECRET }}" | wc
       - uses: actions/checkout@master
       - run: "ls *"
