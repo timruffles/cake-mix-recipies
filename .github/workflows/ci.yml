@@ -20,6 +20,6 @@ jobs:
     steps:
       - run: env
       - run: "echo $THE_TEST_SECRET"
-      - run: "echo '${{ github.secrets.THE_TEST_SECRET }}' | wc"
+      - run: "echo '${{ secrets.THE_TEST_SECRET }}' | wc"
       - uses: actions/checkout@master
       - run: "ls *"
