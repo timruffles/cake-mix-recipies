@@ -1,3 +1,3 @@
 # Cake Mix Aggregator
 
-News aggregator for all things 🍰🍰🍪🍰🍰
+News aggregator for all things 🍰🍰🍪🍰
