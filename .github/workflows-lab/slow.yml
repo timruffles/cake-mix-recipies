@@ -1,0 +1,13 @@
+on:
+  push:
+  
+
+name: "Slow action"
+
+jobs:
+  CI:
+    name: "cookie LAB"
+    runs-on: ubuntu-16.04
+    steps:
+      - run: sleep 120
+      - run: ":"
