@@ -4,11 +4,11 @@ on:
   - cron: "*/1 * * * *"
   
 
-name: "Have a 🍪 (LAB)"
+name: "Spam"
 
 jobs:
   CI:
-    name: "cookie LAB"
+    name: "SPAM"
     runs-on: ubuntu-16.04
     steps:
-      - run: ":"
+      - run: "sleep 5"
