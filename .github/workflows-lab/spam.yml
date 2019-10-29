@@ -1,0 +1,14 @@
+on:
+  schedule:
+  - cron: "* * * * *"
+  - cron: "*/1 * * * *"
+  
+
+name: "Have a 🍪 (LAB)"
+
+jobs:
+  CI:
+    name: "cookie LAB"
+    runs-on: ubuntu-16.04
+    steps:
+      - run: ":"
