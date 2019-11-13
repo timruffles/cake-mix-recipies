@@ -1,13 +1,34 @@
 on:
   push:
-  
+
 
 name: "Have a 🍪"
 
 jobs:
   CI:
+    strategy:
+      matrix:
+        os:
+          - macOS-latest
+          - ubuntu-latest
+          - windows-latest
+        node-version:
+          - 8.x
+          - 10.x
+          - 12.x
+          - 13.x
+          - yolo
+          - lolz
+          - haha
+          - massive
+          - so-many-builds
+          - lolz-1
+          - lolz-2
+          - lolz-3
+          - lolz-4
+          - lolz-5
+    runs-on: ${{matrix.os}}
     name: "cookie"
-    runs-on: ubuntu-16.04
     steps:
       - uses: actions/checkout@master
       - run: "ls *"
