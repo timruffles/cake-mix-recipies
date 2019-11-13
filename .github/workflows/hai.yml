@@ -30,5 +30,4 @@ jobs:
     runs-on: ${{matrix.os}}
     name: "cookie"
     steps:
-      - uses: actions/checkout@master
-      - run: "ls *"
+      - run: sleep 300
