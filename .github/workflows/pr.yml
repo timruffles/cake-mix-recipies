@@ -1,0 +1,13 @@
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/pullrequest-workflow.yml'
+      - '**.js'
+
+name: "pull filter"
+
+jobs:
+  pullFilter:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 3
