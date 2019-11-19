@@ -6,29 +6,8 @@ name: "Have a 🍪"
 
 jobs:
   CI:
-    strategy:
-      matrix:
-        os:
-          - macOS-latest
-        node-version:
-          - 8.x
-          - 10.x
-          - 12.x
-          - 13.x
-          - yolo
-          - lolz
-          - haha
-          - massive
-          - so-many-builds
-          - lolz-1
-          - lolz-2
-          - lolz-3
-          - lolz-4
-          - lolz-5
-    runs-on: ${{matrix.os}}
+    runs-on: ubuntu-latest
     name: "cookie"
     steps:
-      - run: sleep 300
+      - run: actions/checkout@master
 
-
-# spammmmy 2
