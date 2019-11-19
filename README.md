@@ -8,9 +8,3 @@ News aggregator for all things
 🍰
 🍰
 🍰
-🍰
-🍰
-🍰
-🍰
-🍰
-🍰
