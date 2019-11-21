@@ -1,0 +1,12 @@
+on:	
+  push:	
+
+
+name: "Slow action lab"	
+
+jobs:	
+  slow:	
+    runs-on: ubuntu-16.04	
+    steps:	
+      - run: sleep 120	
+      - run: ":"
