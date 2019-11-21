@@ -3,11 +3,10 @@ on:
   push:
   
 
-name: "Have a 🍪 (LAB)"
+name: "actions (LAB)"
 
 jobs:
-  CI:
-    name: "cookie LAB"
+  act:
     runs-on: ubuntu-16.04
     steps:
       - uses: actions/checkout@master
