@@ -1,0 +1,12 @@
+  
+on:	
+  push:	
+
+# fails approximately 50 of the time
+name: "Flakey"	
+
+jobs:	
+  build:	
+    runs-on: ubuntu-16.04	
+    steps:	
+      - run: "[[ $RANDOM > 16350 ]]"
