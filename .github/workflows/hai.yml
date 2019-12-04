@@ -9,5 +9,5 @@ jobs:
     runs-on: ubuntu-latest
     name: "cookie"
     steps:
-      - run: actions/checkout@master
+      - run: actions/checkout@v1
 
