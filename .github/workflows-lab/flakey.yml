@@ -1,6 +1,5 @@
-  
 on:	
-  push:	
+  push:
 
 # fails approximately 50 of the time
 name: "Flakey (LAB)"	
