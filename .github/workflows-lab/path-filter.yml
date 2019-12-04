@@ -1,0 +1,12 @@
+on:	
+  push:	
+    paths: [".github/workflows-lab/**"]
+
+
+name: "Path filter - only lab wfs (LAB)"	
+
+jobs:	
+  build:	
+    runs-on: ubuntu-16.04	
+    steps:	
+      - runs: ":"
