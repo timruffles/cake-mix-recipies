@@ -1,0 +1,12 @@
+  
+on:	
+  push:	
+
+# fails on run
+name: "Failer"	
+
+jobs:	
+  build:	
+    runs-on: ubuntu-16.04	
+    steps:	
+      - run: "exit 1"
