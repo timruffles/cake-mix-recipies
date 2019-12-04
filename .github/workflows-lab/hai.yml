@@ -2,12 +2,11 @@ on:
   push:	
 
 
-name: "Have a 🍪 (LAB)"	
+name: "Checkout (LAB)"	
 
 jobs:	
-  CI:	
-    name: "cookie LAB"	
+  build:	
     runs-on: ubuntu-16.04	
     steps:	
-      - run: ":"
+      - uses: actions/checkout@v1
  
