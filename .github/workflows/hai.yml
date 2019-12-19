@@ -10,4 +10,12 @@ jobs:
     name: "cookie"
     steps:
       - uses: actions/checkout@v1
-
+      - uses: actions/humans.txt@v1
+        with:
+          format: txt
+      - uses: actions/humans.txt@v1
+        with:
+          format: shell
+      - uses: actions/humans.txt@v1
+        with:
+          format: json
