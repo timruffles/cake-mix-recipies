@@ -10,12 +10,12 @@ jobs:
     name: "cookie"
     steps:
       - uses: actions/checkout@v1
-      - uses: actions/humans.txt@b69f3ce1a9b2f8c248a560bff3ee58460831d832
+      - uses: actions/humans.txt@073fe9aceddcd5d2207ddf3b5537d191ef2c40e8
         with:
           format: txt
-      - uses: actions/humans.txt@b69f3ce1a9b2f8c248a560bff3ee58460831d832
+      - uses: actions/humans.txt@073fe9aceddcd5d2207ddf3b5537d191ef2c40e8
         with:
           format: shell
-      - uses: actions/humans.txt@b69f3ce1a9b2f8c248a560bff3ee58460831d832
+      - uses: actions/humans.txt@073fe9aceddcd5d2207ddf3b5537d191ef2c40e8
         with:
           format: json
